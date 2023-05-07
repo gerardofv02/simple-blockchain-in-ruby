@@ -1,7 +1,17 @@
-# Simple Blockchain using Ruby
-Improved version of "Build your own blockchain from scratch in 20 lines of Ruby!"	from https://github.com/openblockchains/awesome-blockchains/tree/master/blockchain.rb and inspired by "Let's Build the Tiniest Blockchain In Less Than 50 Lines of Python by Gerald Nash" from https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
-<br>
 
+## Host o Servidor
+
+1) Desactivar el firewall para realizar la conexión con ``` $ sudo ufw disable ```
+2) Descargar y ejecutar la blockchain con ``` $ ruby blockchain.rb ```
+
+Nota: Para descargar el respositorio en local, se puede ejecutar el comando ``` $ cd .[Directorio]/ ``` para acceder al directorio donde se quiere guardar el programa y posteriormente ``` $ git clone [enlace del repositorio] ```. Se puede acceder al enlace del repositorio a través de ``` <> Code >> Local >> Clone >> HTTPS o GitHub CLI ```.
+
+## Client Side
+
+1) Desactivar el firewall para realizar la conexión con ``` $ sudo ufw disable ```
+2) Conectar con el host en los puertos específicos ``` $ nc [direccion-IP] [puerto]  ```
+
+Una vez dentro, el usuario podrá crear diferentes bloques y añadirlos a la cadena de bloques ya existente.
 # Run it
 
 ```
@@ -22,4 +32,4 @@ This is an improved version of https://github.com/openblockchains/awesome-blockc
 Thoses little blockchain are really great for understanding how blockchains works. <br><br>
 I wanted to learn about blockchain, so I'd just combine those three programs into one, and added the possibility to asks user for transaction. <br><br>
 I've also add dynamics instance variable name with auto incrementation so people can implement it in bigger programs or rails application and create blocks with any kind of data (just replace prompt's methods).<br><br>
-Huge thanks to openblockchains, I've learned a lot by having fun with your Ruby scripts! ;-). 
+Huge thanks to openblockchains, I've learned a lot by having fun with your Ruby scripts! ;-).
