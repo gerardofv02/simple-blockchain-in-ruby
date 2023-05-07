@@ -1,3 +1,11 @@
+# Simple Blockchain using Ruby
+Improved version of "Build your own blockchain from scratch in 20 lines of Ruby!"	from https://github.com/openblockchains/awesome-blockchains/tree/master/blockchain.rb and inspired by "Let's Build the Tiniest Blockchain In Less Than 50 Lines of Python by Gerald Nash" from https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
+<br>
+
+# ¿Qué hemos añadido?
+
+Se propone permitir que varios usuarios conectados a la misma red puedan crear y añadir bloques a la misma cadena de bloques. 
+> Tutorial y trabajo realizado en una distribución Linux Ubuntu, versión 22.04 Jellyfish LTS. 
 
 ## Host o Servidor
 
